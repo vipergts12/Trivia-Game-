@@ -1,5 +1,12 @@
+/* html { */
+    /* height: 100%; */
+  /* overflow: hidden; */
+}
 body {
     background-color: mediumaquamarine;
+    font-family: 'Just Another Hand', cursive;
+    
+
 }
 .choice {
     border: 1px solid black;
@@ -8,5 +15,28 @@ body {
     cursor: pointer;
 }
 .jumbotron {
-    background-color: rgb(74, 40, 177);
+    background-color: rgb(139, 114, 213);
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    transition: box-shadow 2s;
+
+}
+.jumbotron:hover {
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+    /* padding: 1px; */
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+.footer {
+    text-align: center;
+}
+#links:hover {
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+#gif {
+    height: 200px;
+    width: 250px;
 }
