@@ -1,8 +1,9 @@
 /* html { */
     /* height: 100%; */
   /* overflow: hidden; */
-}
+/* } */
 body {
+    
     background-color: mediumaquamarine;
     font-family: 'Just Another Hand', cursive;
     
@@ -18,10 +19,11 @@ body {
     background-color: rgb(139, 114, 213);
     border-radius: 4px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-    transition: box-shadow 2s;
+    transition: box-shadow 1s;
 
 }
 .jumbotron:hover {
+    -webkit-text-stroke-color: blueviolet;
     box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
     /* padding: 1px; */
     cursor: pointer;
@@ -31,12 +33,34 @@ body {
     text-align: center;
 }
 #links:hover {
-    box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
-    padding: 10px;
+    box-shadow: 15px 15px 15px rgba(119, 7, 184, 0.5);
+    /* padding: 10px; */
     cursor: pointer;
     transition: box-shadow 1s;
 }
 #gif {
-    height: 200px;
+    /* float: left; */
+    height: 100px;
     width: 250px;
+    /* -webkit-animation: cssAnimation 0s ease-in 2s forwards; */
 }
+/* @keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+} */
+#reset:hover {
+box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+/* padding: 8px; */
+cursor: pointer;
+transition: box-shadow 1s;
+}
+    /* @-webkit-keyframes cssAnimation {
+        to {
+            width:0;
+            height:0;
+            visibility:hidden;
+        }
+    } */

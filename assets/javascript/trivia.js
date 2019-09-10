@@ -1,3 +1,6 @@
+// prompt {
+    
+// }
 var counter = 5;
 var currentQuestion = 0;
 var score = 0;
